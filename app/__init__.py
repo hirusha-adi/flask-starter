@@ -11,6 +11,7 @@ def create_app():
     db.init_app(app)
     migrate.init_app(app, db)
     login_manager.init_app(app)
+    login_manager.login_view = 'main.login'
     sitemap.init_app(app)
 
     app.register_blueprint(main_bp)
