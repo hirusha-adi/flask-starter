@@ -5,3 +5,4 @@ Flask-Login
 Flask-Sitemap
 python-dotenv
 gunicorn
+Flask-WTF
